@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+     <link rel="stylesheet" href="../styles/header.css">
+     <link rel="stylesheet" href="../styles/carrito.css">
+</head>
+<body>
+
+     <header class="header">
+        <nav>
+            <h2 class="logo"><a href="tienda.html">Cale Shop</a></h2>
+            <ul>
+                <li><a href="detalle.html" class="menu">
+                  <i class="ri-shopping-bag-line"></i>
+                  <span class="cart-item-count"></span>
+                </a></li>
+            </ul>
+             <div class="nav__toggle" id="nav__togle">
+                <i class="ri-menu-line"></i>
+             </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="lista_producto">
+
+            <div class="lista">
+            <span>Product</span>
+            <span>Price</span>
+            <span>Quantity</span>
+            <span>Total</span>
+            <span>Remove</span>
+            </div>
+
+            <div class="lista_item">
+                <!-- <div class="lista_imagen">
+                    <img src="../assets/Detalle/Detalle3K.jpeg" alt="">
+                    <p class="title">Men Casual Round Neck T-Shirt</p>
+                </div>
+                <div class="precios">
+                    <span class="price">$1000</span>
+                </div>
+                <div class="quantity"><input type="number" value="1" min="1"></div>
+                <span class="total-price">$1000</span>
+                <button class="remove"><i class="ri-close-line"></i></button> -->
+            </div>
+
+            <div class="cart-total">
+            <h3>Cart Total</h3>
+            <p><span class="subtotal">$0</span></p>
+            <p>Delivery free <span>Free</span></p>
+            <p>Grand Total <span class="grand-total">$0</span></p>
+            <button class="btn">Proceed to Checkout</button>
+        </div>
+        </section>
+    </main>
+    
+    <script src="../app/app.js"></script>
+</body>
+</html>

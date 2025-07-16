@@ -1,0 +1,28 @@
+.seleccion{
+    padding: 8rem 9% 30px;
+}
+
+.seleccion h1{
+    text-align: center;
+    font-size: 4rem;
+    color: var(--color-letra-negra);
+    margin-bottom: 35px;
+}
+
+.Contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.Contenedor .card img{
+    width: 100%;
+    height: 50vh;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+

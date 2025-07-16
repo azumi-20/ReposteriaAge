@@ -1,0 +1,92 @@
+/* main{
+    padding: 0px 30% 30px;
+} */
+
+.seleccione_detalle{
+    padding: 10rem 4% 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 20px; */
+}
+
+.contenido_izquierda .miniaturas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.miniaturas{
+    position: absolute;
+    margin-left: 9rem;
+    cursor: pointer;
+}
+
+.imagen_grande img{
+   width: 60%;
+   padding-top: 10px;
+   margin-left: 8rem;
+}
+
+.miniaturas img{
+    width: 150px;
+    height: 70%;
+    transform: translateY(39rem);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.diseno_optiones img{
+    width: 125px;
+    height: 25vh;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.contenido_derecho{
+    margin-left: -10rem;
+}
+
+.contenido_derecho .title{
+    padding-top: 30px;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: var(--color-letra-negra);
+}
+
+.contenido_derecho .rating i{
+    color: #e35f26;
+}
+
+.contenido_derecho .price {
+    font-size: 68px;
+    color: var(--color-letra-negra);
+}
+
+.contenido_derecho .description{
+    font-size: 18px;
+    width: 450px;
+    margin-bottom: 15px;
+}
+
+.seleccion_diseno p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin: 1rem 0px;
+    padding: 10px 90px;
+    background: #222;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.contenido_derecho .producto_final{
+     border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
